@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/gostack-logo.png'
+import logo from '../assets/gostack-logo.png';
 
 function Header() {
   return (  
