@@ -25,7 +25,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   height: 64px;
-  min-width: 980px;
+  min-width: 780px;
 }
 
 nav img {
@@ -39,4 +39,58 @@ nav div {
 
 nav span {
   margin-right: 8px;
+}
+
+#postList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: space-between;
+}
+
+.postItem {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  box-shadow: 5px #ccc;
+  color: #000;
+  width: 780px;
+  margin: 10px 0; 
+  padding: 10px;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.separator {
+  margin: 10px 0; 
+  border-bottom: 1px solid #eee
+}
+
+.postHeader {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.postHeader > div {
+  margin-left: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+}
+
+.comment p {
+  margin:  0 10px 10px 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.comment p span {
+  font-weight: bold;
 }
